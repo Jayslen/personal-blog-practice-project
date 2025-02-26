@@ -1,0 +1,40 @@
+### Home
+GET http://localhost:3080/sdfsdf
+
+### Read specific article
+GET http://localhost:3080/article/10
+
+### Admin route
+GET http://localhost:3080/admin
+Authorization: Basic YWRtaW46YWRtaW4=
+
+### Edit view
+GET http://localhost:3080/edit/0
+Authorization: Basic YWRtaW46YWRtaW4=
+
+### Edit article
+PATCH http://localhost:3080/edit/30
+Authorization: Basic YWRtaW46YWRtaW4=
+content-type: application/x-www-form-urlencoded
+
+title=La+tierra&date=2025-02-17&content=La+Tierra+es+el+tercer+planeta+del+Sistema+Solar+%28contando+en+orden+de+distancia+de+los+ocho+planetas+al+Sol%29%2C+y+el+cuarto+de+ellos+de+menor+a+mayor.+Est%C3%A1+situada+a+unos+150+millones+de+kil%C3%B3metros+del+Sol.+Es+el+%C3%BAnico+planeta+en+el+que+hasta+ahora+se+conoce+la+existencia+de+vida.+La+Tierra+se+form%C3%B3+al+mismo+tiempo+que+el+Sol+y+el+resto+del+Sistema+Solar%2C+hace+unos+4570+millones+de+a%C3%B1os.+El+volumen+de+la+Tierra+es+m%C3%A1s+de+un+mill%C3%B3n+de+veces+menor+que+el+Sol+y+la+masa+de+la+Tierra+es+nueve+veces+mayor+que+la+de+su+sat%C3%A9lite%2C+la+Luna.+La+temperatura+media+de+la+superficie+terrestre+es+de+unos+15+%C2%B0C.%0D%0A%0D%0AEn+su+origen%2C+la+Tierra+pudo+haber+sido+s%C3%B3lo+un+agregado+de+rocas+incandescentes+y+gases.
+
+### 
+POST http://localhost:3080/new
+Authorization: Basic YWRtaW46YWRtaW4=
+content-type: application/x-www-form-urlencoded
+
+title=La+tierra&date=2025-02-17&content=La+Tierra+es+el+tercer+planeta+del+Sistema+Solar+%28contando+en+orden+de+distancia+de+los+ocho+planetas+al+Sol%29%2C+y+el+cuarto+de+ellos+de+menor+a+mayor.+Est%C3%A1+situada+a+unos+150+millones+de+kil%C3%B3metros+del+Sol.+Es+el+%C3%BAnico+planeta+en+el+que+hasta+ahora+se+conoce+la+existencia+de+vida.+La+Tierra+se+form%C3%B3+al+mismo+tiempo+que+el+Sol+y+el+resto+del+Sistema+Solar%2C+hace+unos+4570+millones+de+a%C3%B1os.+El+volumen+de+la+Tierra+es+m%C3%A1s+de+un+mill%C3%B3n+de+veces+menor+que+el+Sol+y+la+masa+de+la+Tierra+es+nueve+veces+mayor+que+la+de+su+sat%C3%A9lite%2C+la+Luna.+La+temperatura+media+de+la+superficie+terrestre+es+de+unos+15+%C2%B0C.%0D%0A%0D%0AEn+su+origen%2C+la+Tierra+pudo+haber+sido+s%C3%B3lo+un+agregado+de+rocas+incandescentes+y+gases.    
+
+###
+PATCH  http://localhost:3080/edit/85
+authorization: Basic YWRtaW46YWRtaW4=
+content-type: application/x-www-form-urlencoded
+
+title=La+tierra&date=2025-02-17&content=La+Tierra+es+el+tercer+planeta+del+Sistema+Solar+%28contando+en+orden+de+distancia+de+los+ocho+planetas+al+Sol%29%2C+y+el+cuarto+de+ellos+de+menor+a+mayor.+Est%C3%A1+situada+a+unos+150+millones+de+kil%C3%B3metros+del+Sol.+Es+el+%C3%BAnico+planeta+en+el+que+hasta+ahora+se+conoce+la+existencia+de+vida.+La+Tierra+se+form%C3%B3+al+mismo+tiempo+que+el+Sol+y+el+resto+del+Sistema+Solar%2C+hace+unos+4570+millones+de+a%C3%B1os.+El+volumen+de+la+Tierra+es+m%C3%A1s+de+un+mill%C3%B3n+de+veces+menor+que+el+Sol+y+la+masa+de+la+Tierra+es+nueve+veces+mayor+que+la+de+su+sat%C3%A9lite%2C+la+Luna.+La+temperatura+media+de+la+superficie+terrestre+es+de+unos+15+%C2%B0C.%0D%0A%0D%0AEn+su+origen%2C+la+Tierra+pudo+haber+sido+s%C3%B3lo+un+agregado+de+rocas+incandescentes+y+gases.    
+
+###
+DELETE http://localhost:3080/delete/13
+Authorization: Basic YWRtaW46YWRtaW4=
+content-type: application/x-www-form-urlencoded
+
